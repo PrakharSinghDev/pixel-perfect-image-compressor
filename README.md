@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/yourusername/pixel-perfect-compressor">
+  <a href="https://github.com/PrakharSinghDev/pixel-perfect-image-compressor">
     <img src="./public/PixelPerfect-ImgCompressor.png" alt="PixelPerfect Logo" width="400">
   </a>
 
@@ -8,14 +8,8 @@
   <p align="center">
     Privacy-focused image compression designed for simplicity.
     <br />
-    <a href="#-running-locally"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="http://localhost:3000">View Demo</a>
-    ·
-    <a href="https://github.com/yourusername/pixel-perfect-compressor/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/yourusername/pixel-perfect-compressor/issues">Request Feature</a>
+    <a href="http://localhost:3000"><strong>View Demo</strong></a>
   </p>
 </div>
 
@@ -62,7 +56,7 @@ Follow these steps to get a local copy up and running on your machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/pixel-perfect-compressor.git](https://github.com/yourusername/pixel-perfect-compressor.git)
+    git clone [https://github.com/PrakharSinghDev/pixel-perfect-image-compressor.git](https://github.com/PrakharSinghDev/pixel-perfect-image-compressor.git)
     cd pixel-perfect-compressor
     ```
 
@@ -83,16 +77,5 @@ Follow these steps to get a local copy up and running on your machine.
 4.  **Open in browser:**
     Navigate to `http://localhost:3000` to see the application.
 
----
-
-## Deployment
-
-The project is optimized for easy deployment on platforms supporting Next.js, such as Vercel.
-
-1.  Push your code to a GitHub repository.
-2.  Log in to Vercel and import the project.
-3.  Click **Deploy**.
-
-> **Note:** As this is a client-side only application, no environment variables or complex backend configuration are required.
 
 ---
