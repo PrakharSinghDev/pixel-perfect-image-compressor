@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <a href="https://github.com/yourusername/pixel-perfect-compressor">
+    <img src="./public/PixelPerfect-ImgCompressor.png" alt="PixelPerfect Logo" width="400">
+  </a>
+
+  <h3 align="center">PixelPerfect Image Compressor</h3>
+
+  <p align="center">
+    Privacy-focused image compression designed for simplicity.
+    <br />
+    <a href="#-running-locally"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="http://localhost:3000">View Demo</a>
+    ·
+    <a href="https://github.com/yourusername/pixel-perfect-compressor/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/yourusername/pixel-perfect-compressor/issues">Request Feature</a>
+  </p>
+</div>
+
+---
+
+## About The Project
+
+**PixelPerfect** was born out of a need for a simple way to compress images without compromising privacy by uploading them to unnecessary third-party servers.
+
+This tool performs **100% client-side processing**. It leverages the native HTML5 Canvas API directly within your browser to handle image resizing and compression. This means your files never leave your device, ensuring complete privacy and lightning-fast results without network latency. It features a clean, dark-mode interface with real-time feedback, putting you in complete control of the file-size vs. quality balance.
+
+### Key Features
+
+* **Privacy First:** All processing happens locally in your browser. **No server uploads ever.**
+* **Real-Time Estimates:** Instantly see predicted file sizes as you adjust the quality slider.
+* **Simple UI:** A clean, modern dark mode interface free from clutter and ads.
+* **Precise Control:** Fine-tune your images with an adjustable compression level ranging from 1% to 100%.
+
+---
+
+## Tech Stack
+
+This project is built using modern web technologies focused on performance and developer experience.
+
+| Category | Technology | Description |
+| :--- | :--- | :--- |
+| **Framework** | [Next.js 14](https://nextjs.org/) | App Router for structure and routing. |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework for rapid UI development. |
+| **Icons** | [Lucide React](https://lucide.dev/) | Beautiful, consistent icons. |
+| **Core** | HTML5 Canvas API | Native browser API used for image manipulation. |
+
+---
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to get a local copy up and running on your machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Node.js (LTS version recommended)
+* npm or yarn
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Running Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/yourusername/pixel-perfect-compressor.git](https://github.com/yourusername/pixel-perfect-compressor.git)
+    cd pixel-perfect-compressor
+    ```
 
-## Learn More
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or if using yarn:
+    # yarn install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    # or if using yarn:
+    # yarn dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4.  **Open in browser:**
+    Navigate to `http://localhost:3000` to see the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project is optimized for easy deployment on platforms supporting Next.js, such as Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  Push your code to a GitHub repository.
+2.  Log in to Vercel and import the project.
+3.  Click **Deploy**.
+
+> **Note:** As this is a client-side only application, no environment variables or complex backend configuration are required.
+
+---
