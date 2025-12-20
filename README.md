@@ -77,5 +77,4 @@ Follow these steps to get a local copy up and running on your machine.
 4.  **Open in browser:**
     Navigate to `http://localhost:3000` to see the application.
 
-
 ---
