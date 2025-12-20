@@ -9,7 +9,7 @@
     Privacy-focused image compression designed for simplicity.
     <br />
     <br />
-    <a href="http://localhost:3000"><strong>View Demo</strong></a>
+    <a href="https://pixelperfect.prakhars.me/><strong>View Website</strong></a>
   </p>
 </div>
 
@@ -56,8 +56,8 @@ Follow these steps to get a local copy up and running on your machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/PrakharSinghDev/pixel-perfect-image-compressor.git](https://github.com/PrakharSinghDev/pixel-perfect-image-compressor.git)
-    cd pixel-perfect-compressor
+    git clone https://github.com/PrakharSinghDev/pixel-perfect-image-compressor.git
+    cd pixel-perfect-image-compressor
     ```
 
 2.  **Install dependencies:**
